@@ -1,0 +1,225 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset='utf8'>
+      <link rel="stylesheet" href="styles.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Lato&display=swap" rel="stylesheet">
+      <style>
+        /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #8f54a0 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #8f54a0;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+        #a {
+  width: 30px;
+  height: 40px;
+}
+        body{
+          background-color: rgb(51, 255, 209);
+        }
+p {
+  font-family: 'Lato', sans-serif;
+}
+
+.glow-on-hover {
+    width: 320px;
+    height: 250px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: right;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}</style>
+    </head>
+    <body>
+      <img src="wink.png" style="width: 100px;
+  height: 100px; float: left;">
+      <p1 style="font-family: 'Aboreto', cursive; font-size: 50px;">Nuggs Flash Collection ;)</p1>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+
+
+      <a href="ageofwar.html">
+<button class="glow-on-hover" type="button" style="float: left;"> <img id="a" style="width: 100%;
+  height: 100%;" src="icn_heroimage.webp"/> <br> </button>
+      </a>
+
+      <a href="ageofwar2.html">
+<button class="glow-on-hover" type="button" style="float: left;"> <img id="a" style="width: 100%;
+  height: 100%;" src="age-of-war-2.webp"/> <br> </button>
+      </a>
+      <a href="bloonstd.html">
+<button class="glow-on-hover" type="button" style="float: left;"> <img id="a" style="width: 100%;
+  height: 100%;" src="bloons-tower-defense-1.jpg"/> <br> </button>
+      </a>
+      <a href="bloonstd2.html">
+<button class="glow-on-hover" type="button" style="float: left;"> <img id="a" style="width: 100%;
+  height: 100%;" src="maxresdefault (5).jpg"/> <br> </button>
+      </a>
+      <a href="bloonstd3.html">
+<button class="glow-on-hover" type="button" style="float: left;"> <img id="a" style="width: 100%;
+  height: 100%;" src="maxresdefault (6).jpg"/> <br> </button>
+      </a>
+      <a href="gun2.html">
+<button class="glow-on-hover" type="button" style="float: left;"> <img id="a" style="width: 100%;
+  height: 100%;" src="icn_heroimage.png"/> <br> </button>
+      </a>
+      <a href="BreakingTheBank.html">
+<button class="glow-on-hover" type="button" style="float: left;"> <img id="a" style="width: 100%;
+  height: 100%;" src="BtBRTitle.webp"/> <br> </button>
+      </a>
+      <a href="alien_hominid.html">
+<button class="glow-on-hover" type="button" style="float: left;"> <img id="a" style="width: 100%;
+  height: 100%;" src="download (1).jpg"/> <br> </button>
+      </a>
+      <a href="FPAWorld1.html">
+<button class="glow-on-hover" type="button" style="float: left;"> <img id="a" style="width: 100%;
+  height: 100%;" src="cover.png"/> <br> </button>
+      </a>
+      <a href="FPAWorld2.html">
+<button class="glow-on-hover" type="button" style="float: left;"> <img id="a" style="width: 100%;
+  height: 100%;" src="cover (1).png"/> <br> </button>
+      </a>
+      <a href="FPAWorld3.html">
+<button class="glow-on-hover" type="button" style="float: left;"> <img id="a" style="width: 100%;
+  height: 100%;" src="download (2).jpg"/> <br> </button>
+      </a>
+      <a href="impossible-quiz-full.html">
+<button class="glow-on-hover" type="button" style="float: left;"> <img id="a" style="width: 100%;
+  height: 100%;" src="impossible-quiz-deluxe-newgrounds_screenshot.png"/> <br> </button>
+      </a>
+      <a href="motherload.html">
+<button class="glow-on-hover" type="button" style="float: left;"> <img id="a" style="width: 100%;
+  height: 100%;" src="Motherload_title.webp"/> <br> </button>
+      </a>
+      <a href="alienocalypse.html">
+<button class="glow-on-hover" type="button" style="float: left;"> <img id="a" style="width: 100%;
+  height: 100%;" src="download (3).jpg"/> <br> </button>
+      </a>
+      <a href="aporkalypse-now.html">
+<button class="glow-on-hover" type="button" style="float: left;"> <img id="a" style="width: 100%;
+  height: 100%;" src="Oatmealbacon (1).png"/> <br> </button>
+      </a>
+      <a href="asteroid-mining-empire.html">
+<button class="glow-on-hover" type="button" style="float: left;"> <img id="a" style="width: 100%;
+  height: 100%;" src="pic6762141.webp"/> <br> </button>
+      </a>
+      <a href="athalina-rpg.html">
+<button class="glow-on-hover" type="button" style="float: left;"> <img id="a" style="width: 100%;
+  height: 100%;" src="download (4).jpg"/> <br> </button>
+      </a>
+      <a href="Canyon Defense.html">
+<button class="glow-on-hover" type="button" style="float: left;"> <img id="a" style="width: 100%;
+  height: 100%;" src="Canyon_Defence_0.6_Shape_29.webp"/> <br> </button>
+      </a>
+      <a href="SwordsAndSouls.html">
+<button class="glow-on-hover" type="button" style="float: left;"> <img id="a" style="width: 100%;
+  height: 100%;" src="flash_664964_card.png"/> <br> </button>
+      </a>
+      <a href="Robokill.html">
+<button class="glow-on-hover" type="button" style="float: left;"> <img id="a" style="width: 100%;
+  height: 100%;" src="robokill.webp"/> <br> </button>
+      </a>
+      <a href="SwordsAndSouls.html">
+<button class="glow-on-hover" type="button" style="float: left;"> <img id="a" style="width: 100%;
+  height: 100%;" src="gunmaster.png"/> <br> </button>
+      </a>
+      <a href="learn-to-fly (1).html">
+<button class="glow-on-hover" type="button" style="float: left;"> <img id="a" style="width: 100%;
+  height: 100%;" src="learn-to-fly.jpg"/> <br> </button>
+      </a>
+      <a href="dagobah_Learn_To_Fly_2.html">
+<button class="glow-on-hover" type="button" style="float: left;"> <img id="a" style="width: 100%;
+  height: 100%;" src="1_menu.jpg"/> <br> </button>
+      </a>
+      <a href="Learn-To-Fly-3.html">
+<button class="glow-on-hover" type="button" style="float: left;"> <img id="a" style="width: 100%;
+  height: 100%;" src="capsule_616x353 (3).jpg"/> <br> </button>
+      </a>
+      <a href="raft-wars.html">
+<button class="glow-on-hover" type="button" style="float: left;"> <img id="a" style="width: 100%;
+  height: 100%;" src="hqdefault.jpg"/> <br> </button>
+      </a>
+      <a href="Run3.html">
+<button class="glow-on-hover" type="button" style="float: left;"> <img id="a" style="width: 100%;
+  height: 100%;" src="Run_3_Title_Screen.webp"/> <br> </button>
+      </a>
+      
+    </body>
+</html>
